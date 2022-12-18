@@ -1,4 +1,4 @@
-#include "monty.h"
+i#include "monty.h"
 /**
   *f_sub- sustration
   *@head: stack head
@@ -26,3 +26,4 @@ void f_sub(stack_t **head, unsigned int counter)
 	aux->next->n = sus;
 	*head = aux->next;
 	free(aux);
+}
